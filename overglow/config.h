@@ -3,6 +3,9 @@
   See config.h options at https://docs.qmk.fm/#/config_options?id=the-configh-file
 */
 #define ORYX_CONFIGURATOR
+#undef DEBOUNCE
+#define DEBOUNCE 35
+
 #undef TAPPING_TERM
 #define TAPPING_TERM 250
 
